@@ -1,0 +1,28 @@
+#!/bin/bash
+set -e
+NC='\033[0m' # No Color
+LRed='\033[1;31m'
+LGreen='\033[1;32m'
+parolavnc=`date +%s | sha256sum | base64 | head -c 16 ; echo`
+clear
+printf "${LRed}E-İMZA HIZLI KURULUM ( BY Oguzhan DUYAR ) ${NC} \n"
+echo "Merhaba"
+sleep 0.5
+echo "Java 8 ayarlanıyor"
+sudo echo 'deb http://ppa.launchpad.net/webupd8team/java/ubuntu xenial main' >> /etc/apt/sources.list.d/java-8-debian.list
+sudo echo 'deb-src http://ppa.launchpad.net/webupd8team/java/ubuntu xenial main' >> /etc/apt/sources.list.d/java-8-debian.list
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys EEA14886
+sudo apt-get -y update
+sudo apt-get -y install oracle-java8-installer
+echo "Java sürümü"
+java -version
+echo "Akis ayarlanıyor"
+
+echo "Sürücü ayarlanıyor"
+
+
+echo "Kurulum Tamamlandı"
+
+echo "Güle Güle  "
+echo "Oğuzhan DUYAR"
+
