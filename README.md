@@ -1,6 +1,7 @@
 # akis-e-imza
 Bu deb paketini yapma sebebim Akis linux sürücüsünün java 6 ve java 7 uyumlu olması java 8 ile çalışması için düzenledim.
 
+# E-İMZA-KUR
 
 E-imza-kur 0.2 için talimatlar 
 1- Bu adres deki deb paketini indirip gdebi veya dpkg -i ile paketi kurun.
@@ -11,7 +12,6 @@ E-imza-kur 0.2 için talimatlar
 Java Oracle 8 , akis ve gerekli sürücü paketleri kurulmuş olacaktır.
 ileride resim ve video eklenecektir.
 
-# E-İMZA-KUR
 E-imza-kur-extra-0.1 için talimatlar 
 
 Yeni hali daha pratik.
