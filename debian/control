@@ -1,0 +1,19 @@
+Source: akis-e-imza
+Section: metapackages/non-free
+Priority: optional
+Maintainer: Oğuzhan Duyar <oduyar@bk.ru> 
+Uploaders: Yunusemre Şentürk <yunusemre.senturk@pardus.org.tr>
+Build-Depends: debhelper (>=9)
+Standards-Version: 3.9.8
+Homepage: https://github.com/OguzhanDUYAR/akis-e-imza
+
+Package: akis-e-imza-kur
+Architecture: any
+Depends: ${misc:Depends},
+ akis,
+ oracle-java8-set-default,
+ oracle-java8-installer
+Description: Meta-package with dependencies akis and oracle-java8-installer
+ provided by Pardus Non-Free package repositories.
+ .
+ This metapackage is not mandatory yet some cases needed because oracle java.
